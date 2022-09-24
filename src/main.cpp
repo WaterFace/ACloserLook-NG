@@ -121,7 +121,7 @@ void MessageHandler(SKSE::MessagingInterface::Message* a_msg)
 SKSEPluginLoad(const SKSE::LoadInterface* a_skse)
 {
 	InitializeLogging();
-	SKSE::log::info("ACloserLookSSE loaded");
+	SKSE::log::info("ACloserLook-NG loaded");
 
 	SKSE::Init(a_skse);
 
